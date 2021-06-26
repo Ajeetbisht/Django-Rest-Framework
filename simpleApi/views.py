@@ -46,7 +46,7 @@ def DeleteAPI(request,pk):
     return JsonResponse('data delete',safe=False)
 
 
-
+from rest_framework import generics
 
 
 
